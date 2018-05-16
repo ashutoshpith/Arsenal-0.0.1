@@ -10,8 +10,10 @@
   </head>
 
   <body>
+<%= render "layouts/navbar" %>
 
   <header class"header_inner">
+ 
   <%= link_to "FileCabinet", root_path %>
   <nav>
   <% if user_signed_in? %>
