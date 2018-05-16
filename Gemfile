@@ -34,6 +34,7 @@ gem 'simple_form', '~> 4.0'
 
 gem 'devise', '~> 4.2'
 
+gem 'bcrypt', '~> 3.1.12'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
