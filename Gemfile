@@ -36,8 +36,8 @@ gem 'devise', '~> 4.2'
 
 gem 'bcrypt', '~> 3.1.12'
 
-gem 'bootstrap-sass', '~> 3.3.7'
-gem 'jquery-rails'
+
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -65,3 +65,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Added at 2018-05-17 17:05:20 +0530 by ashutosh\ashutosh:
+gem "bootstrap", "~> 4.1"
+gem 'jquery-rails'
