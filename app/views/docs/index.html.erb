@@ -4,4 +4,6 @@
 <p><%= time_ago_in_words(doc.created_at) %> ago</p>
 
 <% end %>
-<p> <%= link_to "Create Doc", new_doc_path %> </p>
+
+ <%= link_to "Create Doc", new_doc_path, :class=> "btn btn-success" %> 
+ 

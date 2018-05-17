@@ -1,3 +1,22 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotronTop{
+  margin-top: -60px;
+  background-image: url("4.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+  height: 760px;
+}
+
+.cardMod{
+  margin-top: -35px;
+}
+
+.jumbotronBotom{
+  background-image: url("f1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
