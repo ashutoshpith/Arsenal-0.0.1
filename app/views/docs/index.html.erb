@@ -1,9 +1,18 @@
+ <div class="container">
+ <%= link_to "Create Doc", new_doc_path, :class=> "btn btn-success" %> 
+ <br>
+ <hr>
+ <hr>
+ </div>
+<div class="container">
+
 <%= @docs.each do |doc| %>
-<h2>  <%= link_to doc.title, doc %> </h2>
+<h2>  <%= link_to doc.title, doc, class: "btn btn-lg btn-outline-dark" %> </h2>
 <p>  <%= truncate(doc.content, length:50) %></p>
 <p><%= time_ago_in_words(doc.created_at) %> ago</p>
-
+<hr>
 <% end %>
 
- <%= link_to "Create Doc", new_doc_path, :class=> "btn btn-success" %> 
+
  
+</div>

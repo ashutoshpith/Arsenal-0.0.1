@@ -1,6 +1,13 @@
-<h1><%= @doc.title %></h1>
+<div class="container">
+<div class="">
+<h1 ><%= @doc.title %></h1>
 <p> <%= @doc.content %> </p>
+</div>
+<hr>
+<ul class="">
+ <%= link_to "All Docs", docs_path, class:"btn btn-success " %> 
+ <%= link_to "Fix Doc", edit_doc_path(@doc), class: "btn btn-success" %> 
+ <%= link_to "Trash It", docs_path(@doc), method: :delete, data: { confirm: "Are You Fine With That ?" }, class: "btn btn-success" %> 
+</ul>
 
-<p> <%= link_to "All Docs", docs_path %> </p>
-<p> <%= link_to "Fix Doc", edit_doc_path(@doc) %> </p>
-<p> <%= link_to "Trash It", docs_path(@doc), method: :delete, data: { confirm: "Are You Fine With That ?" } %> </p>
+</div>
