@@ -1,5 +1,10 @@
+<form>
+
+<div class="form-group">
 <%= simple_form_for @doc do |f| %>
-  <%= f.input :title %>
-  <%= f.input :content %>
-  <%= f.button :submit %>
+  <%= f.input :title, class: "form-control" %>
+  <%= f.input :content, class: "form-control" %>
+  <%= f.button :submit, class: "btn btn-primary" %>
 <% end %>
+ </div>
+</form>
