@@ -1,25 +1,16 @@
-# README
+```
+ Arsenal-0.0.1 
+```
+![fireshot capture 1 - arsenal001 - http___localhost_3000_](https://user-images.githubusercontent.com/31169310/40273818-76acf3a4-5be5-11e8-94ac-46559879325c.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+![fireshot capture 003 - arsenal001 - http___localhost_3000_users_sign_in](https://user-images.githubusercontent.com/31169310/40273816-763d73bc-5be5-11e8-8b54-3dd7615c0541.jpg)
 
-* Configuration
 
-* Database creation
+![fireshot capture 002 - arsenal001 - http___localhost_3000_users_sign_up](https://user-images.githubusercontent.com/31169310/40273815-7607da04-5be5-11e8-90b0-cad4e2a9d8eb.jpg)
 
-* Database initialization
 
-* How to run the test suite
+![fireshot capture 002 - arsenal001 - http___localhost_3000_docs_new](https://user-images.githubusercontent.com/31169310/40273814-75cddd68-5be5-11e8-8f64-ebb87539bea4.png)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-"# Arsenal-0.0.1" 
